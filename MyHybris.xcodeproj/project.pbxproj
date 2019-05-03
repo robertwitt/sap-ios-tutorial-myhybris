@@ -1,0 +1,932 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017EEE8D1EE8BAE7EDA24610 /* MarketingPermissionMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E5B91307DF4FA3BAD28F10 /* MarketingPermissionMasterViewController.swift */; };
+		01EC9488E1716FF686211579 /* SAPFioriLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D993D835B1ECD92690ED3DD5 /* SAPFioriLoadingIndicator.swift */; };
+		02F573541F64BFF94316594E /* AccountTeamMember.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27ADBDD901FE782F625BECDB /* AccountTeamMember.storyboard */; };
+		052BF743404926067C7838E6 /* MarketingAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BBCE8B35C95031952A6FBF /* MarketingAttribute.swift */; };
+		1254DDF661A57579A2DCEF68 /* MarketingAreaMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE7D7FF157525DC19005F16 /* MarketingAreaMasterViewController.swift */; };
+		1277F7611F8E66AF0060AF58 /* SAPLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */; };
+		17710055B05FE0789E9122D1 /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C519EB901574D7A0C881FF45 /* LocalizedStrings.swift */; };
+		19A41B1A9E787B8EB49E7EEF /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadataChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B5AEA3002D83696441AB7E /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadataChanges.swift */; };
+		1A629887BF93A6EAA16B372B /* CellCreationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427F9B13AE7041388DFF6491 /* CellCreationHelper.swift */; };
+		1E71522E53AB6B5FC5AEC895 /* OnlineODataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB00CA7E1A6DCCAB2542ABA /* OnlineODataController.swift */; };
+		222F1A254B4B032C636D6713 /* AdditionalID.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DDC34D4DB33F3C43522454 /* AdditionalID.storyboard */; };
+		24B29AD7A1290F9A77A3A3D9 /* CorporateAccountMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA73E076106BE3FD1E873EA /* CorporateAccountMasterViewController.swift */; };
+		321005A3FF446251DC31A346 /* MarketingAreaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AB8C93A4AD7E4C686E931A /* MarketingAreaDetailViewController.swift */; };
+		36645653D188C9F87EA5B329 /* MarketingArea.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD7B6992C26652ECA187799 /* MarketingArea.storyboard */; };
+		369F79E321610EC69068A14F /* CorporateAccountOriginData.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD1CF1A0A19A91362DDB765 /* CorporateAccountOriginData.storyboard */; };
+		451AFB33832BA61A4864886F /* APIMKTCORPORATEACCOUNTSRVEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F2E7FE98ED01A7F4A4887F /* APIMKTCORPORATEACCOUNTSRVEntities.swift */; };
+		455EF4592DF15D35109FB6A7 /* MarketingPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF53A3FC43D82B51D91FFA8 /* MarketingPermission.swift */; };
+		4639CD672B5010A7E339513F /* AdditionalIDDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA685A1154664B38FFD531DA /* AdditionalIDDetailViewController.swift */; };
+		4C958E9D85C043F7F14DFD53 /* AccountTeamMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF4BD23CB69B1DF871112CF /* AccountTeamMember.swift */; };
+		5520D4201C5319C94FF29DC7 /* ApplicationUIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE71A111AA7F6B312654F94 /* ApplicationUIManager.swift */; };
+		64FC7827863E983929AD1020 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E14FD6380381C6EFC1D6D0 /* AlertHelper.swift */; };
+		6B0EA7ED4B87FF6364C4ECF8 /* MarketingPermissionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BBA874E29B87098710478F /* MarketingPermissionDetailViewController.swift */; };
+		6DED42755BF46AA48B5ED5AF /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadataText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997FB105DB5F72AC403CDFE5 /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadataText.swift */; };
+		71E58EB32C167052394B4644 /* CollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199ACA5BAC0A6944A62691A /* CollectionsViewController.swift */; };
+		72A7BF70426E3EAD4119ABAF /* AdditionalID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334CB4178F3C90D6DE388ACF /* AdditionalID.swift */; };
+		7A1315B91D4B982000A5DA56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1315B81D4B982000A5DA56 /* AppDelegate.swift */; };
+		7A1315C21D4B982000A5DA56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1315C11D4B982000A5DA56 /* Assets.xcassets */; };
+		7A1315C51D4B982000A5DA56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1315C31D4B982000A5DA56 /* LaunchScreen.storyboard */; };
+		7A16F06D1FD1B3C700D2FABD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7A16F06C1FD1B3C700D2FABD /* README.md */; };
+		7A5744B621DE553600E58C7F /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5744B521DE553600E58C7F /* UITests.swift */; };
+		7ABA471D219D6EAD005B471C /* SAPOData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA4717219D6EAD005B471C /* SAPOData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7ABA471E219D6EAD005B471C /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7ABA471F219D6EAD005B471C /* SAPCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA4719219D6EAD005B471C /* SAPCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7ABA4720219D6EAD005B471C /* SAPFioriFlows.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA471A219D6EAD005B471C /* SAPFioriFlows.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7ABA4721219D6EAD005B471C /* SAPFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA471B219D6EAD005B471C /* SAPFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7ABA4722219D6EAD005B471C /* SAPFiori.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA471C219D6EAD005B471C /* SAPFiori.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7ABA4724219D6EC7005B471C /* SAPCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA4719219D6EAD005B471C /* SAPCommon.framework */; };
+		7ABA4725219D6EC7005B471C /* SAPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA471B219D6EAD005B471C /* SAPFoundation.framework */; };
+		7ABA4726219D6EC7005B471C /* SAPFioriFlows.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA471A219D6EAD005B471C /* SAPFioriFlows.framework */; };
+		7ABA4727219D6EC7005B471C /* SAPFiori.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA471C219D6EAD005B471C /* SAPFiori.framework */; };
+		7ABA4728219D6EC7005B471C /* SAPOData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA4717219D6EAD005B471C /* SAPOData.framework */; };
+		8237C8A80EAAE75286E62AB2 /* MarketingAttribute.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40456F30C51C55D52EAC8AF /* MarketingAttribute.storyboard */; };
+		9B0FF1F494A2940F160C0528 /* CorporateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C381CA66753E87603573BB2 /* CorporateAccount.swift */; };
+		9B2A37B64749121363AFA0E0 /* CollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D5EA164C6228C598D3F567 /* CollectionType.swift */; };
+		9E7804B8145DEECD64466B83 /* ODataOnboardingStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84092DCEBE28BDDDDE4ABFB0 /* ODataOnboardingStep.swift */; };
+		A0A0B916FC49410B91CC3897 /* AccountTeamMemberDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FE42626E6FEEDC03E1FA26 /* AccountTeamMemberDetailViewController.swift */; };
+		A0C794BD3D090D180AA51742 /* APIMKTCORPORATEACCOUNTSRVEntitiesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227FBFC86A41123759F63157 /* APIMKTCORPORATEACCOUNTSRVEntitiesFactory.swift */; };
+		A84C20BBDDD790C304D05E14 /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12C0F0D868C8E9C54C0649C /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadata.swift */; };
+		B4E3E884790AA9D7CBEDCB3F /* AdditionalIDMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF3D955B43122F44A88DB0 /* AdditionalIDMasterViewController.swift */; };
+		B8CA2C236758B02C13022DFA /* CorporateAccountOriginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100234CF3204E8185D97EF8D /* CorporateAccountOriginData.swift */; };
+		C31CE956635B72900D1558B9 /* AccountTeamMemberMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC885548C8268DD7CB7B45D8 /* AccountTeamMemberMasterViewController.swift */; };
+		CBCA7A991E3778A9001AF49E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCA7A9B1E3778A9001AF49E /* Main.storyboard */; };
+		CFBADD0D2C1C59500284B67E /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A079FB3CBF3B15F8E4D9D7C /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadataParser.swift */; };
+		DDEA0BD2C7E4BA824E74C0D2 /* MarketingAttributeMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD28FC6B9D165BE8D62404D /* MarketingAttributeMasterViewController.swift */; };
+		DFE9612BC199B37CCF14A50F /* MarketingPermission.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546985DCBA6FB4B7DD136170 /* MarketingPermission.storyboard */; };
+		E209B54F40DDC716ADE23EA4 /* CorporateAccountDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA228411179939CD554F04D /* CorporateAccountDetailViewController.swift */; };
+		E21BC32C218793572792F2B7 /* CorporateAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA94FAFD73B020566AE4E7E /* CorporateAccount.storyboard */; };
+		E373697D09C38E704DDCCC11 /* OnboardingFlowProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63EBF02144490C965AD1797 /* OnboardingFlowProvider.swift */; };
+		EF8677257A36EB891F48B42E /* MarketingAttributeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4998CB5829D9084C0243481 /* MarketingAttributeDetailViewController.swift */; };
+		F3E5DE1FB5120A24B26D644C /* APIMKTCORPORATEACCOUNTSRVEntitiesStaticResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6E0FF5A569513801ADC46 /* APIMKTCORPORATEACCOUNTSRVEntitiesStaticResolver.swift */; };
+		F8B067798A3D2BB4266DC16B /* MarketingArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD43B057E55EC9A6D5D787B3 /* MarketingArea.swift */; };
+		F8DA22E69C1529CD29750649 /* CorporateAccountOriginDataDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6223656D7B356A5770721EED /* CorporateAccountOriginDataDetailViewController.swift */; };
+		F949A3DD1C9F406A7290D17A /* OnboardingErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993A9723C045CC486A6BFA6 /* OnboardingErrorHandler.swift */; };
+		FCBB64B651695EBE65FD6B76 /* CorporateAccountOriginDataMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4965D2F2D657D3309CF353 /* CorporateAccountOriginDataMasterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A5744B821DE553700E58C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A1315AD1D4B982000A5DA56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A1315B41D4B982000A5DA56;
+			remoteInfo = MyHybris;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		758AC1C31D5A265200311F39 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7ABA471D219D6EAD005B471C /* SAPOData.framework in Embed Frameworks */,
+				7ABA471E219D6EAD005B471C /* (null) in Embed Frameworks */,
+				7ABA471F219D6EAD005B471C /* SAPCommon.framework in Embed Frameworks */,
+				7ABA4720219D6EAD005B471C /* SAPFioriFlows.framework in Embed Frameworks */,
+				7ABA4721219D6EAD005B471C /* SAPFoundation.framework in Embed Frameworks */,
+				7ABA4722219D6EAD005B471C /* SAPFiori.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04E6E0FF5A569513801ADC46 /* APIMKTCORPORATEACCOUNTSRVEntitiesStaticResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIMKTCORPORATEACCOUNTSRVEntitiesStaticResolver.swift; path = "Proxy Classes/internal/APIMKTCORPORATEACCOUNTSRVEntitiesStaticResolver.swift"; sourceTree = "<group>"; };
+		0993A9723C045CC486A6BFA6 /* OnboardingErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingErrorHandler.swift; path = Onboarding/OnboardingErrorHandler.swift; sourceTree = "<group>"; };
+		0C4965D2F2D657D3309CF353 /* CorporateAccountOriginDataMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CorporateAccountOriginDataMasterViewController.swift; path = ViewControllers/CorporateAccountOriginData/CorporateAccountOriginDataMasterViewController.swift; sourceTree = "<group>"; };
+		0EA73E076106BE3FD1E873EA /* CorporateAccountMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CorporateAccountMasterViewController.swift; path = ViewControllers/CorporateAccount/CorporateAccountMasterViewController.swift; sourceTree = "<group>"; };
+		100234CF3204E8185D97EF8D /* CorporateAccountOriginData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CorporateAccountOriginData.swift; path = "Proxy Classes/public/CorporateAccountOriginData.swift"; sourceTree = "<group>"; };
+		1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SAPLogo@2x.png"; sourceTree = "<group>"; };
+		19FF3D955B43122F44A88DB0 /* AdditionalIDMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdditionalIDMasterViewController.swift; path = ViewControllers/AdditionalID/AdditionalIDMasterViewController.swift; sourceTree = "<group>"; };
+		1C5D48927C0A006B14D162B1 /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MarketingArea.storyboard; sourceTree = "<group>"; };
+		1EB00CA7E1A6DCCAB2542ABA /* OnlineODataController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnlineODataController.swift; path = OData/OnlineODataController.swift; sourceTree = "<group>"; };
+		227FBFC86A41123759F63157 /* APIMKTCORPORATEACCOUNTSRVEntitiesFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIMKTCORPORATEACCOUNTSRVEntitiesFactory.swift; path = "Proxy Classes/internal/APIMKTCORPORATEACCOUNTSRVEntitiesFactory.swift"; sourceTree = "<group>"; };
+		22E14FD6380381C6EFC1D6D0 /* AlertHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertHelper.swift; path = Utils/AlertHelper.swift; sourceTree = "<group>"; };
+		30BBA874E29B87098710478F /* MarketingPermissionDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarketingPermissionDetailViewController.swift; path = ViewControllers/MarketingPermission/MarketingPermissionDetailViewController.swift; sourceTree = "<group>"; };
+		3199ACA5BAC0A6944A62691A /* CollectionsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionsViewController.swift; path = ViewControllers/CollectionsViewController.swift; sourceTree = "<group>"; };
+		32B5AEA3002D83696441AB7E /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadataChanges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIMKTCORPORATEACCOUNTSRVEntitiesMetadataChanges.swift; path = "Proxy Classes/internal/APIMKTCORPORATEACCOUNTSRVEntitiesMetadataChanges.swift"; sourceTree = "<group>"; };
+		334CB4178F3C90D6DE388ACF /* AdditionalID.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdditionalID.swift; path = "Proxy Classes/public/AdditionalID.swift"; sourceTree = "<group>"; };
+		427F9B13AE7041388DFF6491 /* CellCreationHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellCreationHelper.swift; path = Utils/CellCreationHelper.swift; sourceTree = "<group>"; };
+		4BE71A111AA7F6B312654F94 /* ApplicationUIManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplicationUIManager.swift; path = Onboarding/ApplicationUIManager.swift; sourceTree = "<group>"; };
+		4BF53A3FC43D82B51D91FFA8 /* MarketingPermission.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarketingPermission.swift; path = "Proxy Classes/public/MarketingPermission.swift"; sourceTree = "<group>"; };
+		58F2E7FE98ED01A7F4A4887F /* APIMKTCORPORATEACCOUNTSRVEntities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIMKTCORPORATEACCOUNTSRVEntities.swift; path = "Proxy Classes/public/APIMKTCORPORATEACCOUNTSRVEntities.swift"; sourceTree = "<group>"; };
+		5A079FB3CBF3B15F8E4D9D7C /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadataParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIMKTCORPORATEACCOUNTSRVEntitiesMetadataParser.swift; path = "Proxy Classes/internal/APIMKTCORPORATEACCOUNTSRVEntitiesMetadataParser.swift"; sourceTree = "<group>"; };
+		6223656D7B356A5770721EED /* CorporateAccountOriginDataDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CorporateAccountOriginDataDetailViewController.swift; path = ViewControllers/CorporateAccountOriginData/CorporateAccountOriginDataDetailViewController.swift; sourceTree = "<group>"; };
+		75479A35053B18072E54F936 /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MarketingPermission.storyboard; sourceTree = "<group>"; };
+		77D5EA164C6228C598D3F567 /* CollectionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionType.swift; path = Model/CollectionType.swift; sourceTree = "<group>"; };
+		7A1315B51D4B982000A5DA56 /* MyHybris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHybris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1315B81D4B982000A5DA56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A1315C11D4B982000A5DA56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A1315C41D4B982000A5DA56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A1315C61D4B982000A5DA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A16F06C1FD1B3C700D2FABD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7A5744B321DE553600E58C7F /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5744B521DE553600E58C7F /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
+		7A5744B721DE553700E58C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABA4717219D6EAD005B471C /* SAPOData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPOData.framework; sourceTree = "<group>"; };
+		7ABA4719219D6EAD005B471C /* SAPCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPCommon.framework; sourceTree = "<group>"; };
+		7ABA471A219D6EAD005B471C /* SAPFioriFlows.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFioriFlows.framework; sourceTree = "<group>"; };
+		7ABA471B219D6EAD005B471C /* SAPFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFoundation.framework; sourceTree = "<group>"; };
+		7ABA471C219D6EAD005B471C /* SAPFiori.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFiori.framework; sourceTree = "<group>"; };
+		7CD28FC6B9D165BE8D62404D /* MarketingAttributeMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarketingAttributeMasterViewController.swift; path = ViewControllers/MarketingAttribute/MarketingAttributeMasterViewController.swift; sourceTree = "<group>"; };
+		7DC6E8184FE8E7FF4A36F051 /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MarketingAttribute.storyboard; sourceTree = "<group>"; };
+		84092DCEBE28BDDDDE4ABFB0 /* ODataOnboardingStep.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ODataOnboardingStep.swift; path = OData/ODataOnboardingStep.swift; sourceTree = "<group>"; };
+		8C381CA66753E87603573BB2 /* CorporateAccount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CorporateAccount.swift; path = "Proxy Classes/public/CorporateAccount.swift"; sourceTree = "<group>"; };
+		997FB105DB5F72AC403CDFE5 /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadataText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIMKTCORPORATEACCOUNTSRVEntitiesMetadataText.swift; path = "Proxy Classes/internal/APIMKTCORPORATEACCOUNTSRVEntitiesMetadataText.swift"; sourceTree = "<group>"; };
+		9CF4BD23CB69B1DF871112CF /* AccountTeamMember.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccountTeamMember.swift; path = "Proxy Classes/public/AccountTeamMember.swift"; sourceTree = "<group>"; };
+		A12C0F0D868C8E9C54C0649C /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIMKTCORPORATEACCOUNTSRVEntitiesMetadata.swift; path = "Proxy Classes/public/APIMKTCORPORATEACCOUNTSRVEntitiesMetadata.swift"; sourceTree = "<group>"; };
+		A63EBF02144490C965AD1797 /* OnboardingFlowProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingFlowProvider.swift; path = Onboarding/OnboardingFlowProvider.swift; sourceTree = "<group>"; };
+		A9AB8C93A4AD7E4C686E931A /* MarketingAreaDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarketingAreaDetailViewController.swift; path = ViewControllers/MarketingArea/MarketingAreaDetailViewController.swift; sourceTree = "<group>"; };
+		AA97FBA08802B9F734E9F8A1 /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AdditionalID.storyboard; sourceTree = "<group>"; };
+		AD43B057E55EC9A6D5D787B3 /* MarketingArea.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarketingArea.swift; path = "Proxy Classes/public/MarketingArea.swift"; sourceTree = "<group>"; };
+		ADA228411179939CD554F04D /* CorporateAccountDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CorporateAccountDetailViewController.swift; path = ViewControllers/CorporateAccount/CorporateAccountDetailViewController.swift; sourceTree = "<group>"; };
+		B4BC851DE8B660CF640B2BCA /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CorporateAccount.storyboard; sourceTree = "<group>"; };
+		BEE7D7FF157525DC19005F16 /* MarketingAreaMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarketingAreaMasterViewController.swift; path = ViewControllers/MarketingArea/MarketingAreaMasterViewController.swift; sourceTree = "<group>"; };
+		C3E5B91307DF4FA3BAD28F10 /* MarketingPermissionMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarketingPermissionMasterViewController.swift; path = ViewControllers/MarketingPermission/MarketingPermissionMasterViewController.swift; sourceTree = "<group>"; };
+		C519EB901574D7A0C881FF45 /* LocalizedStrings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
+		CB909D801E38CA8800218154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D11AFF135F18E2C4F8AEE83C /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AccountTeamMember.storyboard; sourceTree = "<group>"; };
+		D993D835B1ECD92690ED3DD5 /* SAPFioriLoadingIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPFioriLoadingIndicator.swift; path = Utils/SAPFioriLoadingIndicator.swift; sourceTree = "<group>"; };
+		DA685A1154664B38FFD531DA /* AdditionalIDDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdditionalIDDetailViewController.swift; path = ViewControllers/AdditionalID/AdditionalIDDetailViewController.swift; sourceTree = "<group>"; };
+		DC885548C8268DD7CB7B45D8 /* AccountTeamMemberMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccountTeamMemberMasterViewController.swift; path = ViewControllers/AccountTeamMember/AccountTeamMemberMasterViewController.swift; sourceTree = "<group>"; };
+		E32246229AFDD830A159391C /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CorporateAccountOriginData.storyboard; sourceTree = "<group>"; };
+		E6FE42626E6FEEDC03E1FA26 /* AccountTeamMemberDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccountTeamMemberDetailViewController.swift; path = ViewControllers/AccountTeamMember/AccountTeamMemberDetailViewController.swift; sourceTree = "<group>"; };
+		F4998CB5829D9084C0243481 /* MarketingAttributeDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarketingAttributeDetailViewController.swift; path = ViewControllers/MarketingAttribute/MarketingAttributeDetailViewController.swift; sourceTree = "<group>"; };
+		F4BBCE8B35C95031952A6FBF /* MarketingAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarketingAttribute.swift; path = "Proxy Classes/public/MarketingAttribute.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A1315B21D4B982000A5DA56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABA4724219D6EC7005B471C /* SAPCommon.framework in Frameworks */,
+				7ABA4725219D6EC7005B471C /* SAPFoundation.framework in Frameworks */,
+				7ABA4726219D6EC7005B471C /* SAPFioriFlows.framework in Frameworks */,
+				7ABA4727219D6EC7005B471C /* SAPFiori.framework in Frameworks */,
+				7ABA4728219D6EC7005B471C /* SAPOData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5744B021DE553600E58C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D92116A27F9A4A18A80D52C /* CorporateAccountOriginData */ = {
+			isa = PBXGroup;
+			children = (
+				0C4965D2F2D657D3309CF353 /* CorporateAccountOriginDataMasterViewController.swift */,
+				6223656D7B356A5770721EED /* CorporateAccountOriginDataDetailViewController.swift */,
+				DBD1CF1A0A19A91362DDB765 /* CorporateAccountOriginData.storyboard */,
+			);
+			name = CorporateAccountOriginData;
+			sourceTree = "<group>";
+		};
+		3C15F6D3942C2AC326C28420 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				227FBFC86A41123759F63157 /* APIMKTCORPORATEACCOUNTSRVEntitiesFactory.swift */,
+				04E6E0FF5A569513801ADC46 /* APIMKTCORPORATEACCOUNTSRVEntitiesStaticResolver.swift */,
+				5A079FB3CBF3B15F8E4D9D7C /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadataParser.swift */,
+				32B5AEA3002D83696441AB7E /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadataChanges.swift */,
+				997FB105DB5F72AC403CDFE5 /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadataText.swift */,
+			);
+			name = internal;
+			sourceTree = "<group>";
+		};
+		538366878A1688F428FDB257 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				65D2E0FF889EFCA77B99655D /* AccountTeamMember */,
+				C3884387829CAFE963CABF83 /* MarketingArea */,
+				BB51E705FAA19AE44721A286 /* CorporateAccount */,
+				0D92116A27F9A4A18A80D52C /* CorporateAccountOriginData */,
+				FABA5D92AC2C4065D841B22F /* MarketingAttribute */,
+				EBB4C258C7C9203ABE0D69CB /* AdditionalID */,
+				3199ACA5BAC0A6944A62691A /* CollectionsViewController.swift */,
+				6A20E737CC67E5C50D8D1F97 /* MarketingPermission */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		65D2E0FF889EFCA77B99655D /* AccountTeamMember */ = {
+			isa = PBXGroup;
+			children = (
+				E6FE42626E6FEEDC03E1FA26 /* AccountTeamMemberDetailViewController.swift */,
+				DC885548C8268DD7CB7B45D8 /* AccountTeamMemberMasterViewController.swift */,
+				27ADBDD901FE782F625BECDB /* AccountTeamMember.storyboard */,
+			);
+			name = AccountTeamMember;
+			sourceTree = "<group>";
+		};
+		6A20E737CC67E5C50D8D1F97 /* MarketingPermission */ = {
+			isa = PBXGroup;
+			children = (
+				30BBA874E29B87098710478F /* MarketingPermissionDetailViewController.swift */,
+				C3E5B91307DF4FA3BAD28F10 /* MarketingPermissionMasterViewController.swift */,
+				546985DCBA6FB4B7DD136170 /* MarketingPermission.storyboard */,
+			);
+			name = MarketingPermission;
+			sourceTree = "<group>";
+		};
+		6B292556C89813B7685FA669 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A63EBF02144490C965AD1797 /* OnboardingFlowProvider.swift */,
+				0993A9723C045CC486A6BFA6 /* OnboardingErrorHandler.swift */,
+				4BE71A111AA7F6B312654F94 /* ApplicationUIManager.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		6B904D8A1BD3A52C9D78E7C3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				22E14FD6380381C6EFC1D6D0 /* AlertHelper.swift */,
+				427F9B13AE7041388DFF6491 /* CellCreationHelper.swift */,
+				D993D835B1ECD92690ED3DD5 /* SAPFioriLoadingIndicator.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		7A1315AC1D4B982000A5DA56 = {
+			isa = PBXGroup;
+			children = (
+				7A16F06C1FD1B3C700D2FABD /* README.md */,
+				7A1315B71D4B982000A5DA56 /* MyHybris */,
+				7A5744B421DE553600E58C7F /* UITests */,
+				7A1315B61D4B982000A5DA56 /* Products */,
+				7A1315CC1D4B990B00A5DA56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A1315B61D4B982000A5DA56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A1315B51D4B982000A5DA56 /* MyHybris.app */,
+				7A5744B321DE553600E58C7F /* UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A1315B71D4B982000A5DA56 /* MyHybris */ = {
+			isa = PBXGroup;
+			children = (
+				7A1315B81D4B982000A5DA56 /* AppDelegate.swift */,
+				CBCA7A9B1E3778A9001AF49E /* Main.storyboard */,
+				7A1315C11D4B982000A5DA56 /* Assets.xcassets */,
+				7A1315C31D4B982000A5DA56 /* LaunchScreen.storyboard */,
+				1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */,
+				7A1315C61D4B982000A5DA56 /* Info.plist */,
+				538366878A1688F428FDB257 /* ViewControllers */,
+				C6FED3EC926C7F7A32A9E2CC /* Proxy Classes */,
+				AEE03B147358672D67353FA8 /* Model */,
+				DCE2DC1D845728732B5E7C1E /* OData */,
+				6B904D8A1BD3A52C9D78E7C3 /* Utils */,
+				C519EB901574D7A0C881FF45 /* LocalizedStrings.swift */,
+				6B292556C89813B7685FA669 /* Onboarding */,
+			);
+			path = MyHybris;
+			sourceTree = "<group>";
+		};
+		7A1315CC1D4B990B00A5DA56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ABA4719219D6EAD005B471C /* SAPCommon.framework */,
+				7ABA471C219D6EAD005B471C /* SAPFiori.framework */,
+				7ABA471A219D6EAD005B471C /* SAPFioriFlows.framework */,
+				7ABA471B219D6EAD005B471C /* SAPFoundation.framework */,
+				7ABA4717219D6EAD005B471C /* SAPOData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A5744B421DE553600E58C7F /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A5744B521DE553600E58C7F /* UITests.swift */,
+				7A5744B721DE553700E58C7F /* Info.plist */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		A8B4E1C6CDA162B478762FCC /* public */ = {
+			isa = PBXGroup;
+			children = (
+				334CB4178F3C90D6DE388ACF /* AdditionalID.swift */,
+				F4BBCE8B35C95031952A6FBF /* MarketingAttribute.swift */,
+				9CF4BD23CB69B1DF871112CF /* AccountTeamMember.swift */,
+				58F2E7FE98ED01A7F4A4887F /* APIMKTCORPORATEACCOUNTSRVEntities.swift */,
+				8C381CA66753E87603573BB2 /* CorporateAccount.swift */,
+				A12C0F0D868C8E9C54C0649C /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadata.swift */,
+				4BF53A3FC43D82B51D91FFA8 /* MarketingPermission.swift */,
+				AD43B057E55EC9A6D5D787B3 /* MarketingArea.swift */,
+				100234CF3204E8185D97EF8D /* CorporateAccountOriginData.swift */,
+			);
+			name = public;
+			sourceTree = "<group>";
+		};
+		AEE03B147358672D67353FA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				77D5EA164C6228C598D3F567 /* CollectionType.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BB51E705FAA19AE44721A286 /* CorporateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				0EA73E076106BE3FD1E873EA /* CorporateAccountMasterViewController.swift */,
+				ADA228411179939CD554F04D /* CorporateAccountDetailViewController.swift */,
+				3BA94FAFD73B020566AE4E7E /* CorporateAccount.storyboard */,
+			);
+			name = CorporateAccount;
+			sourceTree = "<group>";
+		};
+		C3884387829CAFE963CABF83 /* MarketingArea */ = {
+			isa = PBXGroup;
+			children = (
+				A9AB8C93A4AD7E4C686E931A /* MarketingAreaDetailViewController.swift */,
+				BEE7D7FF157525DC19005F16 /* MarketingAreaMasterViewController.swift */,
+				6BD7B6992C26652ECA187799 /* MarketingArea.storyboard */,
+			);
+			name = MarketingArea;
+			sourceTree = "<group>";
+		};
+		C6FED3EC926C7F7A32A9E2CC /* Proxy Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A8B4E1C6CDA162B478762FCC /* public */,
+				3C15F6D3942C2AC326C28420 /* internal */,
+			);
+			name = "Proxy Classes";
+			sourceTree = "<group>";
+		};
+		DCE2DC1D845728732B5E7C1E /* OData */ = {
+			isa = PBXGroup;
+			children = (
+				84092DCEBE28BDDDDE4ABFB0 /* ODataOnboardingStep.swift */,
+				1EB00CA7E1A6DCCAB2542ABA /* OnlineODataController.swift */,
+			);
+			name = OData;
+			sourceTree = "<group>";
+		};
+		EBB4C258C7C9203ABE0D69CB /* AdditionalID */ = {
+			isa = PBXGroup;
+			children = (
+				19FF3D955B43122F44A88DB0 /* AdditionalIDMasterViewController.swift */,
+				DA685A1154664B38FFD531DA /* AdditionalIDDetailViewController.swift */,
+				E2DDC34D4DB33F3C43522454 /* AdditionalID.storyboard */,
+			);
+			name = AdditionalID;
+			sourceTree = "<group>";
+		};
+		FABA5D92AC2C4065D841B22F /* MarketingAttribute */ = {
+			isa = PBXGroup;
+			children = (
+				7CD28FC6B9D165BE8D62404D /* MarketingAttributeMasterViewController.swift */,
+				F4998CB5829D9084C0243481 /* MarketingAttributeDetailViewController.swift */,
+				C40456F30C51C55D52EAC8AF /* MarketingAttribute.storyboard */,
+			);
+			name = MarketingAttribute;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A1315B41D4B982000A5DA56 /* MyHybris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1315C91D4B982000A5DA56 /* Build configuration list for PBXNativeTarget "MyHybris" */;
+			buildPhases = (
+				237616AD21AECC9A00B6F8AD /* Refresh SAP Cloud Platform SDK for iOS Frameworks */,
+				7A1315B11D4B982000A5DA56 /* Sources */,
+				7A1315B21D4B982000A5DA56 /* Frameworks */,
+				7A1315B31D4B982000A5DA56 /* Resources */,
+				758AC1C31D5A265200311F39 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyHybris;
+			productName = MyHybris;
+			productReference = 7A1315B51D4B982000A5DA56 /* MyHybris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A5744B221DE553600E58C7F /* UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A5744BC21DE553700E58C7F /* Build configuration list for PBXNativeTarget "UITests" */;
+			buildPhases = (
+				7A5744AF21DE553600E58C7F /* Sources */,
+				7A5744B021DE553600E58C7F /* Frameworks */,
+				7A5744B121DE553600E58C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A5744B921DE553700E58C7F /* PBXTargetDependency */,
+			);
+			name = UITests;
+			productName = UITests;
+			productReference = 7A5744B321DE553600E58C7F /* UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A1315AD1D4B982000A5DA56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = SAP;
+				TargetAttributes = {
+					7A1315B41D4B982000A5DA56 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+					7A5744B221DE553600E58C7F = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A1315B41D4B982000A5DA56;
+					};
+				};
+			};
+			buildConfigurationList = 7A1315B01D4B982000A5DA56 /* Build configuration list for PBXProject "MyHybris" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A1315AC1D4B982000A5DA56;
+			productRefGroup = 7A1315B61D4B982000A5DA56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A1315B41D4B982000A5DA56 /* MyHybris */,
+				7A5744B221DE553600E58C7F /* UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A1315B31D4B982000A5DA56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A16F06D1FD1B3C700D2FABD /* README.md in Resources */,
+				7A1315C51D4B982000A5DA56 /* LaunchScreen.storyboard in Resources */,
+				7A1315C21D4B982000A5DA56 /* Assets.xcassets in Resources */,
+				CBCA7A991E3778A9001AF49E /* Main.storyboard in Resources */,
+				1277F7611F8E66AF0060AF58 /* SAPLogo@2x.png in Resources */,
+				8237C8A80EAAE75286E62AB2 /* MarketingAttribute.storyboard in Resources */,
+				36645653D188C9F87EA5B329 /* MarketingArea.storyboard in Resources */,
+				DFE9612BC199B37CCF14A50F /* MarketingPermission.storyboard in Resources */,
+				369F79E321610EC69068A14F /* CorporateAccountOriginData.storyboard in Resources */,
+				222F1A254B4B032C636D6713 /* AdditionalID.storyboard in Resources */,
+				02F573541F64BFF94316594E /* AccountTeamMember.storyboard in Resources */,
+				E21BC32C218793572792F2B7 /* CorporateAccount.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5744B121DE553600E58C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		237616AD21AECC9A00B6F8AD /* Refresh SAP Cloud Platform SDK for iOS Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Refresh SAP Cloud Platform SDK for iOS Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "sh ./scripts/refreshframeworks.sh\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A1315B11D4B982000A5DA56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1315B91D4B982000A5DA56 /* AppDelegate.swift in Sources */,
+				A0A0B916FC49410B91CC3897 /* AccountTeamMemberDetailViewController.swift in Sources */,
+				72A7BF70426E3EAD4119ABAF /* AdditionalID.swift in Sources */,
+				321005A3FF446251DC31A346 /* MarketingAreaDetailViewController.swift in Sources */,
+				24B29AD7A1290F9A77A3A3D9 /* CorporateAccountMasterViewController.swift in Sources */,
+				FCBB64B651695EBE65FD6B76 /* CorporateAccountOriginDataMasterViewController.swift in Sources */,
+				052BF743404926067C7838E6 /* MarketingAttribute.swift in Sources */,
+				9B2A37B64749121363AFA0E0 /* CollectionType.swift in Sources */,
+				4C958E9D85C043F7F14DFD53 /* AccountTeamMember.swift in Sources */,
+				1254DDF661A57579A2DCEF68 /* MarketingAreaMasterViewController.swift in Sources */,
+				9E7804B8145DEECD64466B83 /* ODataOnboardingStep.swift in Sources */,
+				F8DA22E69C1529CD29750649 /* CorporateAccountOriginDataDetailViewController.swift in Sources */,
+				A0C794BD3D090D180AA51742 /* APIMKTCORPORATEACCOUNTSRVEntitiesFactory.swift in Sources */,
+				64FC7827863E983929AD1020 /* AlertHelper.swift in Sources */,
+				F3E5DE1FB5120A24B26D644C /* APIMKTCORPORATEACCOUNTSRVEntitiesStaticResolver.swift in Sources */,
+				451AFB33832BA61A4864886F /* APIMKTCORPORATEACCOUNTSRVEntities.swift in Sources */,
+				DDEA0BD2C7E4BA824E74C0D2 /* MarketingAttributeMasterViewController.swift in Sources */,
+				E209B54F40DDC716ADE23EA4 /* CorporateAccountDetailViewController.swift in Sources */,
+				B4E3E884790AA9D7CBEDCB3F /* AdditionalIDMasterViewController.swift in Sources */,
+				9B0FF1F494A2940F160C0528 /* CorporateAccount.swift in Sources */,
+				A84C20BBDDD790C304D05E14 /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadata.swift in Sources */,
+				455EF4592DF15D35109FB6A7 /* MarketingPermission.swift in Sources */,
+				CFBADD0D2C1C59500284B67E /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadataParser.swift in Sources */,
+				1A629887BF93A6EAA16B372B /* CellCreationHelper.swift in Sources */,
+				71E58EB32C167052394B4644 /* CollectionsViewController.swift in Sources */,
+				C31CE956635B72900D1558B9 /* AccountTeamMemberMasterViewController.swift in Sources */,
+				4639CD672B5010A7E339513F /* AdditionalIDDetailViewController.swift in Sources */,
+				6B0EA7ED4B87FF6364C4ECF8 /* MarketingPermissionDetailViewController.swift in Sources */,
+				F8B067798A3D2BB4266DC16B /* MarketingArea.swift in Sources */,
+				1E71522E53AB6B5FC5AEC895 /* OnlineODataController.swift in Sources */,
+				01EC9488E1716FF686211579 /* SAPFioriLoadingIndicator.swift in Sources */,
+				EF8677257A36EB891F48B42E /* MarketingAttributeDetailViewController.swift in Sources */,
+				19A41B1A9E787B8EB49E7EEF /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadataChanges.swift in Sources */,
+				6DED42755BF46AA48B5ED5AF /* APIMKTCORPORATEACCOUNTSRVEntitiesMetadataText.swift in Sources */,
+				017EEE8D1EE8BAE7EDA24610 /* MarketingPermissionMasterViewController.swift in Sources */,
+				B8CA2C236758B02C13022DFA /* CorporateAccountOriginData.swift in Sources */,
+				17710055B05FE0789E9122D1 /* LocalizedStrings.swift in Sources */,
+				E373697D09C38E704DDCCC11 /* OnboardingFlowProvider.swift in Sources */,
+				F949A3DD1C9F406A7290D17A /* OnboardingErrorHandler.swift in Sources */,
+				5520D4201C5319C94FF29DC7 /* ApplicationUIManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5744AF21DE553600E58C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5744B621DE553600E58C7F /* UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A5744B921DE553700E58C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A1315B41D4B982000A5DA56 /* MyHybris */;
+			targetProxy = 7A5744B821DE553700E58C7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27ADBDD901FE782F625BECDB /* AccountTeamMember.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D11AFF135F18E2C4F8AEE83C /* Base */,
+			);
+			name = AccountTeamMember.storyboard;
+			path = ViewControllers/AccountTeamMember;
+			sourceTree = "<group>";
+		};
+		3BA94FAFD73B020566AE4E7E /* CorporateAccount.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4BC851DE8B660CF640B2BCA /* Base */,
+			);
+			name = CorporateAccount.storyboard;
+			path = ViewControllers/CorporateAccount;
+			sourceTree = "<group>";
+		};
+		546985DCBA6FB4B7DD136170 /* MarketingPermission.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75479A35053B18072E54F936 /* Base */,
+			);
+			name = MarketingPermission.storyboard;
+			path = ViewControllers/MarketingPermission;
+			sourceTree = "<group>";
+		};
+		6BD7B6992C26652ECA187799 /* MarketingArea.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C5D48927C0A006B14D162B1 /* Base */,
+			);
+			name = MarketingArea.storyboard;
+			path = ViewControllers/MarketingArea;
+			sourceTree = "<group>";
+		};
+		7A1315C31D4B982000A5DA56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A1315C41D4B982000A5DA56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C40456F30C51C55D52EAC8AF /* MarketingAttribute.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DC6E8184FE8E7FF4A36F051 /* Base */,
+			);
+			name = MarketingAttribute.storyboard;
+			path = ViewControllers/MarketingAttribute;
+			sourceTree = "<group>";
+		};
+		CBCA7A9B1E3778A9001AF49E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB909D801E38CA8800218154 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBD1CF1A0A19A91362DDB765 /* CorporateAccountOriginData.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E32246229AFDD830A159391C /* Base */,
+			);
+			name = CorporateAccountOriginData.storyboard;
+			path = ViewControllers/CorporateAccountOriginData;
+			sourceTree = "<group>";
+		};
+		E2DDC34D4DB33F3C43522454 /* AdditionalID.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA97FBA08802B9F734E9F8A1 /* Base */,
+			);
+			name = AdditionalID.storyboard;
+			path = ViewControllers/AdditionalID;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A1315C71D4B982000A5DA56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A1315C81D4B982000A5DA56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A1315CA1D4B982000A5DA56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MyHybris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.robertwitt.tutorial.api.MyHybris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7A1315CB1D4B982000A5DA56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MyHybris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.robertwitt.tutorial.api.MyHybris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7A5744BA21DE553700E58C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyHybris;
+			};
+			name = Debug;
+		};
+		7A5744BB21DE553700E58C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyHybris;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A1315B01D4B982000A5DA56 /* Build configuration list for PBXProject "MyHybris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1315C71D4B982000A5DA56 /* Debug */,
+				7A1315C81D4B982000A5DA56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1315C91D4B982000A5DA56 /* Build configuration list for PBXNativeTarget "MyHybris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1315CA1D4B982000A5DA56 /* Debug */,
+				7A1315CB1D4B982000A5DA56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A5744BC21DE553700E58C7F /* Build configuration list for PBXNativeTarget "UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5744BA21DE553700E58C7F /* Debug */,
+				7A5744BB21DE553700E58C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A1315AD1D4B982000A5DA56 /* Project object */;
+}

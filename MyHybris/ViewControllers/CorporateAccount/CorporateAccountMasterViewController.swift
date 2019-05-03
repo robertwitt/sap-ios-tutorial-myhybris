@@ -18,6 +18,7 @@ class CorporateAccountMasterViewController: FUIFormTableViewController, SAPFiori
     private let okTitle = NSLocalizedString("keyOkButtonTitle",
                                             value: "OK",
                                             comment: "XBUT: Title of OK button.")
+    private var activities = [FUIActivityItem.phone, FUIActivityItem.message, FUIActivityItem.email]
     var loadingIndicator: FUILoadingIndicatorView?
 
     override func viewDidLoad() {
@@ -28,7 +29,8 @@ class CorporateAccountMasterViewController: FUIFormTableViewController, SAPFiori
         self.tableView.addSubview(self.refreshControl!)
         // Cell height settings
         self.tableView.rowHeight = UITableView.automaticDimension
-        self.tableView.estimatedRowHeight = 98
+        self.tableView.estimatedRowHeight = 50
+        self.tableView.register(FUIContactCell.self, forCellReuseIdentifier: FUIContactCell.reuseIdentifier)
         self.updateTable()
     }
 
@@ -57,8 +59,54 @@ class CorporateAccountMasterViewController: FUIFormTableViewController, SAPFiori
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let corporateaccount = self.entities[indexPath.row]
-        let cell = CellCreationHelper.objectCellWithNonEditableContent(tableView: tableView, indexPath: indexPath, key: "CorporateAccountUUID", value: "\(corporateaccount.corporateAccountUUID!)")
-        return cell
+        
+        let contactCell = tableView.dequeueReusableCell(withIdentifier: FUIContactCell.reuseIdentifier, for: indexPath) as! FUIContactCell
+        
+        // get URL from OData service, if available
+        if let ciURLString = corporateaccount.interactionContactImageURL, !(corporateaccount.interactionContactImageURL?.isEmpty)! {
+            let ciURL = URL(string: ciURLString)
+            let data = try? Data(contentsOf: ciURL!)
+            
+            if let imageData = data {
+                contactCell.detailImage = UIImage(data: imageData)
+            }
+        } else {
+            contactCell.detailImage = UIImage() // TODO: Add your own default image
+        }
+        
+        // Added data binding
+        contactCell.headlineText = corporateaccount.fullName
+        contactCell.subheadlineText = corporateaccount.regionName
+        contactCell.descriptionText = "\(String(describing: corporateaccount.streetName)) \(String(describing: corporateaccount.addressHouseNumber))\n \(String(describing: corporateaccount.cityName))\n \(String(describing: corporateaccount.phoneNumber))"
+        contactCell.splitPercent = CGFloat(0.3) // Default is 30%
+        
+        // Add activities from Step 15
+        contactCell.activityControl.addActivities(activities)
+        contactCell.activityControl.maxVisibleItems = 3
+        
+        // Perform activity
+        contactCell.onActivitySelectedHandler = { activityItem in
+            switch activityItem {
+            case FUIActivityItem.phone:
+                guard let number = URL(string: "tel://" + corporateaccount.phoneNumber!) else { return }
+                if UIApplication.shared.canOpenURL(number) {
+                    UIApplication.shared.open(number)
+                }
+            case FUIActivityItem.message:
+                guard let sms = URL(string: "sms:" + corporateaccount.phoneNumber!) else { return }
+                if UIApplication.shared.canOpenURL(sms) {
+                    UIApplication.shared.open(sms)
+                }
+            case FUIActivityItem.email:
+                guard let email = URL(string: "mailto:" + corporateaccount.emailAddress!) else { return }
+                if UIApplication.shared.canOpenURL(email) {
+                    UIApplication.shared.open(email)
+                }
+            default: break
+            }
+        }
+        
+        return contactCell
     }
 
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
